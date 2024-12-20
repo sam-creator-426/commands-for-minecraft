@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Minecraft Commands</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>40 </h1>
+            <p>Explore the most useful and fun Minecraft commands categorized for different purposes.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- General Commands -->
+            <section class="command-section">
+                <h2>General Commands</h2>
+                <ul>
+                    <li><strong>/give</strong> - Give items to a player: <code>/give <player> <item> [amount]</code></li>
+                    <li><strong>/tp</strong> - Teleport to other players or coordinates: <code>/tp <player> <destination></code></li>
+                    <li><strong>/time set</strong> - Set the in-game time: <code>/time set <value></code></li>
+                    <li><strong>/weather</strong> - Change the weather: <code>/weather <clear|rain|thunder> [duration]</code></li>
+                    <li><strong>/summon</strong> - Summon entities or mobs: <code>/summon <entity> [position]</code></li>
+                    <li><strong>/spawnpoint</strong> - Set a player’s spawn point: <code>/spawnpoint <player> [x] [y] [z]</code></li>
+                    <li><strong>/effect</strong> - Apply effects like speed, strength, etc.: <code>/effect give <player> <effect> [duration] [amplifier]</code></li>
+                    <li><strong>/clear</strong> - Clear items from a player’s inventory: <code>/clear <player> [item] [amount]</code></li>
+                    <li><strong>/locate</strong> - Locate structures like villages: <code>/locate <structure></code></li>
+                    <li><strong>/help</strong> - Get help on a command: <code>/help <command></code></li>
+                </ul>
+            </section>
+
+            <!-- World Editing Commands -->
+            <section class="command-section">
+                <h2>World Editing Commands</h2>
+                <ul>
+                    <li><strong>/fill</strong> - Fill a region with blocks: <code>/fill <x1> <y1> <z1> <x2> <y2> <z2> <block></code></li>
+                    <li><strong>/clone</strong> - Clone a section of the world: <code>/clone <x1> <y1> <z1> <x2> <y2> <z2> [destination]</code></li>
+                    <li><strong>/setworldspawn</strong> - Set the world spawn: <code>/setworldspawn [x] [y] [z]</code></li>
+                    <li><strong>/worldborder</strong> - Set the world border size: <code>/worldborder set <size></code></li>
+                    <li><strong>/particle</strong> - Create a particle effect: <code>/particle <effect> [pos] [speed] [count]</code></li>
+                    <li><strong>/gamemode</strong> - Change the game mode: <code>/gamemode <mode> [player]</code></li>
+                    <li><strong>/difficulty</strong> - Change the game difficulty: <code>/difficulty <difficulty></code></li>
+                    <li><strong>/gamerule</strong> - Modify game rules: <code>/gamerule <rule> <value></code></li>
+                    <li><strong>/summon</strong> - Summon a mob at a specific location: <code>/summon <entity> [x] [y] [z]</code></li>
+                    <li><strong>/execute</strong> - Execute commands as other entities: <code>/execute <player> <command></code></li>
+                </ul>
+            </section>
+
+            <!-- Player Commands -->
+            <section class="command-section">
+                <h2>Player Commands</h2>
+                <ul>
+                    <li><strong>/scoreboard</strong> - Manage player scores: <code>/scoreboard objectives add <name> <criteria></code></li>
+                    <li><strong>/teleport</strong> - Teleport players or entities: <code>/teleport <target> <destination></code></li>
+                    <li><strong>/summon</strong> - Summon mobs to specific coordinates: <code>/summon <mob> [pos]</code></li>
+                    <li><strong>/clear</strong> - Clear a player's inventory: <code>/clear <player> [item] [amount]</code></li>
+                    <li><strong>/kick</strong> - Kick a player from the server: <code>/kick <player> [reason]</code></li>
+                    <li><strong>/ban</strong> - Ban a player: <code>/ban <player> [reason]</code></li>
+                    <li><strong>/op</strong> - Give a player operator status: <code>/op <player></code></li>
+                    <li><strong>/deop</strong> - Remove operator status: <code>/deop <player></code></li>
+                    <li><strong>/teleport</strong> - Teleport to coordinates or players: <code>/teleport <target> <destination></code></li>
+                    <li><strong>/spawnpoint</strong> - Set spawn points: <code>/spawnpoint <player> <x> <y> <z></code></li>
+                </ul>
+            </section>
+
+            <!-- Effects & Buffs -->
+            <section class="command-section">
+                <h2>Effect & Buff Commands</h2>
+                <ul>
+                    <li><strong>/effect</strong> - Give an effect: <code>/effect give <player> <effect> [duration] [amplifier]</code></li>
+                    <li><strong>/clear</strong> - Clear status effects: <code>/effect clear <player> [effect]</code></li>
+                    <li><strong>/potion</strong> - Give potions with specific effects: <code>/give <player> minecraft:potion{Potion:<potion_name>}</code></li>
+                    <li><strong>/advancement</strong> - Grant advancements: <code>/advancement grant <player> from <advancement_name></code></li>
+                    <li><strong>/attribute</strong> - Modify player attributes: <code>/attribute <player> <attribute> base set <value></code></li>
+                    <li><strong>/summon</strong> - Summon entities with effects: <code>/summon <entity> [x] [y] [z] [data]</code></li>
+                    <li><strong>/weather</strong> - Set weather effects: <code>/weather <clear|rain|thunder> [duration]</code></li>
+                    <li><strong>/time set</strong> - Set time of day: <code>/time set <value></code></li>
+                </ul>
+            </section>
+
+            <!-- Command Blocks -->
+            <section class="command-section">
+                <h2>Command Blocks & Redstone</h2>
+                <ul>
+                    <li><strong>/blockdata</strong> - Change block data: <code>/blockdata <pos> <tag></code></li>
+                    <li><strong>/clone</strong> - Clone regions of blocks: <code>/clone <x1> <y1> <z1> <x2> <y2> <z2> [destination]</code></li>
+                    <li><strong>/execute</strong> - Execute commands from command blocks: <code>/execute <target> <command></code></li>
+                    <li><strong>/testfor</strong> - Test for a player or entity: <code>/testfor <player></code></li>
+                    <li><strong>/summon</strong> - Summon entities using command blocks: <code>/summon <entity> [x] [y] [z]</code></li>
+                    <li><strong>/setblock</strong> - Set a block at specific coordinates: <code>/setblock <x> <y> <z> <block></code></li>
+                    <li><strong>/fill</strong> - Fill regions with blocks: <code>/fill <x1> <y1> <z1> <x2> <y2> <z2> <block></code></li>
+                    <li><strong>/time add</strong> - Add time to the in-game clock: <code>/time add <amount></code></li>
+                    <li><strong>/scoreboard players set</strong> - Set player scores: <code>/scoreboard players set <player> <objective> <value></code></li>
+                    <li><strong>/testforblock</strong> - Test for a block at specific coordinates: <code>/testforblock <x> <y> <z> <block></code></li>
+                </ul>
+            </section>
+            
+            <!-- Continue adding additional sections for more commands -->
+            <!-- Repeat similar structure as above for more commands -->
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created by Minecraft Fans - 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
